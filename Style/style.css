@@ -381,10 +381,32 @@ body {
     font-weight: 300;
     font-size: 1.7rem;
 }
+.update-stock-btn{
+    background-color: var(--darkGreyBtn);
+    width: 100%;
+    padding: 1.4rem 3rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: var(--black);
+    border-radius: 7px;
+}
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
     .add-section {
         padding: 1rem;
     }
+
+    #nav-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    #nav-mobile #user-section-details{
+        display: none;
+    }
+
+   
 }
