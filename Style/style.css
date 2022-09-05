@@ -1,0 +1,390 @@
+@import url('main.css');
+@import url('app.css');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.login--section {
+    margin-top: 4rem;
+}
+
+.lamvax-logo {
+    width: 200px;
+}
+
+.intelligent-img-text {
+    width: 80%;
+}
+
+.sign-in-text {
+    color: var(--darkGrey);
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: bold;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    border-radius: 7px;
+    background-color: var(--grey);
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    color: var(--black);
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+}
+
+.input-text {
+    color: var(--darkGrey);
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    top: -20px;
+    margin-bottom: -80px;
+    padding: .7rem 2rem;
+    margin-top: 15px;
+    transition: ease-in-out;
+
+
+}
+
+.form-input:focus+.input-text {
+    display: block;
+
+}
+
+.form-input:focus {
+    border: 1px solid var(--maroon);
+}
+
+
+
+
+.login-btn {
+    width: 100%;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    font-size: 1.9rem;
+    padding: 1.3rem 2rem;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.login-btn:hover, .login-btn:active {
+    color: var(--white);
+}
+
+.forgot-password-section {
+    color: var(--darkGrey);
+}
+
+.forgot-password-section .reset-link {
+    color: var(--darkBlue);
+    text-decoration: none;
+}
+
+.reset-link:visited {
+    color: var(--darkBlue);
+}
+
+.sponsors-image {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.copyright-section {
+    color: var(--darkGrey);
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+
+
+/* Registering --- Covid-19 Registering */
+.navigation-bar {
+    display: flex;
+    height: 70px;
+    background-color: red;
+    justify-content: space-between;
+
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-section {
+    background-color: var(--black);
+    color: var(--white);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 1rem 2rem;
+    border: 1.5px solid var(--darkGreyBorder);
+}
+
+.details-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name {
+    color: var(--textDark);
+}
+
+.primary-health-care {
+    color: var(--textGrey);
+}
+
+.drop-down-icon {
+    width: 20px
+}
+
+.new-record-btn {
+    background-color: var(--grey);
+    width: 100%;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--darkGrey);
+    border-radius: 15px;
+}
+
+.new-record-btn:hover, .new-record-btn:focus {
+    color: var(--darkGrey);
+}
+
+.covid-registry-btn {
+    background-color: var(--maroon);
+    width: 100%;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 15px;
+}
+
+.covid-registry-btn:hover, .covid-registry-btn:focus {
+    color: var(--white);
+}
+
+.add-section {
+    background-color: var(--grey);
+    border-radius: 30px;
+    padding: 5rem;
+}
+
+.form-record {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    border-radius: 7px;
+    background-color: var(--white);
+    border: 1px solid var(--form-border);
+    outline: none;
+    padding: 1rem 2rem;
+    color: var(--black);
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.apply-filter-btn {
+    width: 100%;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    padding: 1.3rem 3rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin-top: -8px;
+}
+
+.apply-filter-btn:active, .apply-filter-btn:focus, .apply-filter-btn:hover {
+    color: var(--white);
+}
+
+.add-section label {
+    color: var(--labelDark);
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.form-search {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    border-radius: 6px;
+    background-color: var(--white);
+    border: 1px solid var(--form-border);
+    outline: none;
+    padding: 1rem 2rem;
+    color: var(--black);
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.show-entries {
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.show-entries-text {
+    color: var(--labelDark);
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.card-board {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid var(--form-border);
+}
+
+.card-head {
+    padding: 2rem;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.user-img {
+    flex: 6;
+}
+
+.activity-bar {
+    flex: 1;
+
+}
+
+.see-more {
+    flex: 3%;
+
+}
+
+.card-body-part {
+    padding: 2rem;
+}
+
+.user-data {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: var(--darkGreyBorder);
+}
+
+.info {
+    color: var(--labelDark);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.avatar-client {
+    width: 50px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: var(--darkGrey);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    font-weight: 500;
+}
+
+.pagination a.active {
+    background-color: var(--paginationBg);
+    color: var(--darkGrey);
+    border: 1px solid var(--maroon);
+    font-weight: 500;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+.edit-image{
+    width: 180px;
+}
+
+.update-photo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+#custom-file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin: 0 auto;
+  
+}
+.bold-text{
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.info-text{
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .add-section {
+        padding: 1rem;
+    }
+}

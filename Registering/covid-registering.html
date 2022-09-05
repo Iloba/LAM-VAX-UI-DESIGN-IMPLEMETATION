@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam - Vax Login</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <nav class="navigation-bar">
+        <div>
+            <h2>COVID-19 REGISTERING</h2>
+        </div>
+        <div class="user-details">
+            <div>
+                <p>Matthew Edor</p>
+                Primary Health Centre
+            </div>
+            <div class="details-section">
+                <div class="username-section">
+                    <h1>M</h1>
+                </div>
+                <img class="img-fluid w-10" src="../Assets/Images/chevron-down@3x.png" alt="LAM VAX">
+            </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-light bg-white mb-5">
+        <div class="container">
+            <a class="navbar-brand">
+                <h2>COVID-19 REGISTERING</h2>
+            </a>
+            <div class="d-flex">
+                <div class="pt-5">
+                    <p class="user-name text-center">Matthew Edor <br></p>
+                    <span class="primary-health-care"> Primary Health
+                        Centre</span>
+
+                </div>
+                <div class="details-section pt-3">
+                    <div class="username-section">
+                        <h1>M</h1>
+                    </div>
+                    <img class="img-fluid drop-down-icon" src="../Assets/Images/chevron-down.svg" alt="LAM VAX">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <div class="">
+            <div class="row d-flex mx-auto menu-button">
+                <div class="col-md-4 mb-3">
+                    <a href="" class="btn new-record-btn"> + New Record</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="" class="btn covid-registry-btn"> <img src="../Assets/Images/file-tray-full.svg"
+                            alt="Lam-vax"> &nbsp; COVID-19
+                        REGISTERY</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="" class="btn new-record-btn"> <img src="../Assets/Images/stats-chart.svg" alt="Lam-vax">
+                        &nbsp; ANALYTICS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="add-section">
+                    <form action="">
+                        <div class="row mb-5">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="">From</label>
+                                    <input name="from" type="date" class="form-record">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="">To</label>
+                                    <input name="to" type="date" class="form-record">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="">Status</label>
+                                    <select name="status" id="" class="form-record">
+                                        <option value="">Any Status</option>
+                                        <option value="">Any Status</option>
+                                        <option value="">Any Status</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pt-5">
+                                <button class="btn apply-filter-btn">Apply Filters</button>
+                            </div>
+
+                        </div>
+                    </form>
+                    <hr>
+                    <div class="search-section mt-5 mb-5">
+                        <form action="">
+                            <div class="input-group">
+                                <input class="form-search " type="text" name="search" placeholder="&#xF002; Search"
+                                    style="font-family:Arial, FontAwesome">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="show-entries-section mb-5">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="checkbox" class="show-entries" />
+                                <div class="show-entries-text">
+                                    <h2>Show only my entries</h2>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="entries mb-5">
+                        <div class="row mb-5">
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi-slash.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi-slash.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4 ">
+                                <div class="card-board">
+                                    <div class="card-head shadow-sm">
+                                        <div class="d-flex">
+                                            <div class="user-img">
+                                                <img class="img-fluid avatar-client"
+                                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax">
+                                            </div>
+                                            <div class="activity-bar mt-4">
+                                                <a href=""> <img src="../Assets//Images/wifi-slash.svg" alt=""></a>
+                                            </div>
+                                            <div class="see-more mt-4">
+                                                <a href=""><img src="../Assets/Images/more.svg" alt="Lam Vax"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-part">
+                                        <div class="user-name mb-3">
+                                            <p class="user-data">Name</p>
+                                            <p class="info"> Matthew Edor</p>
+                                        </div>
+                                        <div class="sex mb-3">
+                                            <p class="user-data">sex</p>
+                                            <p class="info">Male</p>
+                                        </div>
+                                        <div class="vaccination-details mb-3">
+                                            <p class="user-data"> VACCINATION ID</p>
+                                            <p class="info">NG-AK78992969YY</p>
+                                        </div>
+                                        <div class="address mb-3">
+                                            <p class="user-data">ADDRESS</p>
+                                            <p class="info">FCT, Nigeria</p>
+                                        </div>
+                                        <div class="email mb-3">
+                                            <p class="user-data">EMAIL</p>
+                                            <p class="info"> matthew.edor@gmail.com</p>
+                                        </div>
+                                        <div class="phone mb-3">
+                                            <p class="user-data">PHONE</p>
+                                            <p class="info">08082277788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination-box d-flex justify-content-center mx-auto">
+                          <div class="pagination">
+                            <a href="#"><img src="../Assets/Images/chevron-left.svg" alt="Lam-Vax"></a>
+                            <a href="#">1</a>
+                            <a href="#" class="active">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#"><img src="../Assets/Images/chevron-right.svg" alt="Lam-Vax"></a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

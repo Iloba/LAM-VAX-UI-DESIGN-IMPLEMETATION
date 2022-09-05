@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam - Vax Login</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-white mb-5">
+        <div class="container">
+            <a class="navbar-brand">
+                <h1>
+                    <img src="../Assets/Images/left-arrow-from-left.svg" alt="Lam Vax"> &nbsp; &nbsp;  REGISTER NEW CLIENT
+                </h1>
+            </a>
+            <div class="d-flex">
+                <div class="pt-5">
+                    <p class="user-name text-center">Matthew Edor <br></p>
+                    <span class="primary-health-care"> Primary Health
+                        Centre</span>
+
+                </div>
+                <div class="details-section pt-3">
+                    <div class="username-section">
+                        <h1>M</h1>
+                    </div>
+                    <img class="img-fluid drop-down-icon" src="../Assets/Images/chevron-down.svg" alt="LAM VAX">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="add-section">
+                        <div class="row d-flex">
+                            <div class="col-md-10 mx-auto">
+                                <img class="img-fluid mx-auto d-block edit-image"
+                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax"><br>
+                                <label for="file-upload" class="d-flex mx-auto" id="custom-file-upload">
+                                    Take Photo
+                                </label>
+                                <input type="file" class="update-photo  mb-4" id="file-upload"> <br>
+                                <div class="row add-details-section">
+                                    <form action="">
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="family_name">Family Name</label>
+                                                    <input type="text" id="family_name" name="family_name" class="form-record"
+                                                        placeholder="Client’s Family Name" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="given_name">Given Name</label>
+                                                    <input type="text" id="given_name" name="given_name" class="form-record"
+                                                        placeholder="Client’s Given Name" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="vaccination_id">VACCINATION ID</label>
+                                                    <input type="text" id="vaccination_id" name="vaccination_id" class="form-record"
+                                                        placeholder="NG-AK78992969YY" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="state">STATE</label>
+                                                    <select name="state" class="form-record" id="state">
+                                                        <option value="">Choose State</option>
+                                                        <option value="Abia">Abia</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="sex">SEX</label>
+                                                    <select name="sex" class="form-record" id="sex">
+                                                        <option value="">Choose Gender</option>
+                                                        <option value="Male">Male</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="dob">DATE OF BIRTH</label>
+                                                        <input type="date" class="form-record" name="dob" id="dob">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="phone">Phone</label>
+                                            <input type="text" id="phone" name="phone" class="form-record"
+                                                placeholder="Client’s Phone Number" />
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="email">Email</label>
+                                            <input type="text" id="email" name="email" class="form-record"
+                                                placeholder="Client’s Frequently Checked Email Address" />
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="address">Address</label>
+                                            <textarea name="address" id="address" class="form-record" cols="30"
+                                                rows="50" placeholder="Client’s Residential Address"></textarea>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="state">STATE OF RESIDENCE</label>
+                                                    <select name="state" class="form-record" id="state">
+                                                        <option value="Choose State">Choose State</option>
+                                                        <option value="Abia">Abia</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="lga">LGA OF RESIDENCE</label>
+                                                    <select name="lga" class="form-record" id="lga">
+                                                        <option value="Choose LGA">Choose LGA</option>
+                                                        <option value="Aba South">Aba South</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="ward">WARD OF RESIDENCE</label>
+                                            <textarea name="ward" id="ward" class="form-record" cols="30" rows="50"
+                                                placeholder="Client’s Ward"></textarea>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="id">ID TYPE</label>
+                                                    <select name="id" class="form-record" id="id">
+                                                        <option value="Choose ID">Choose ID</option>
+                                                        <option value="id">National ID (NIN)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="id">ID NUMBER</label>
+                                                    <input type="id" id="id" name="id" class="form-record"
+                                                        placeholder="Identity Number" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="occupation-category">OCCUPATION CATEGORY</label>
+                                                    <select name="occupation-category" class="form-record" id="occupation-category">
+                                                        <option value="Choose Category">Choose Category</option>
+                                                        <option value="Health Sector">Health Sector</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="occupation">OCCUPATION</label>
+                                                    <input type="text" name="occupation" class="form-record" id="occupation" placeholder="Client’s Occupation">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="medical-condition">MEDICAL CONDITIONS</label>
+                                            <textarea name="medical-condition" id="medical-condition" class="form-record" cols="30"
+                                                rows="50" placeholder="You can pick several conditions…"></textarea>
+                                        </div>
+                                        <div class="row mb-5">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="checkbox" class="show-entries" />
+                                                    <div class="show-entries-text">
+                                                        <h2>Any History of Allergy?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="checkbox" class="show-entries" />
+                                                    <div class="show-entries-text">
+                                                        <h2>Accepts COVID-19 Vaccination?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="vaccination">REASONS FOR DECLINING VACCINATION</label>
+                                            <textarea name="vaccination" id="vaccination" class="form-record" cols="30"
+                                                rows="50" placeholder="You can pick several reasons…"></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button class="btn login-btn">Save Client’s Data</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam - Vax Login</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-white mb-5">
+        <div class="container">
+            <a class="navbar-brand">
+                <h1> <img src="../Assets/Images/left-arrow-from-left.svg" alt="Lam Vax"> &nbsp; &nbsp;CLIENT DETAILS
+                </h1>
+            </a>
+            <div class="d-flex">
+                <div class="pt-5">
+                    <p class="user-name text-center">Matthew Edor <br></p>
+                    <span class="primary-health-care"> Primary Health
+                        Centre</span>
+
+                </div>
+                <div class="details-section pt-3">
+                    <div class="username-section">
+                        <h1>M</h1>
+                    </div>
+                    <img class="img-fluid drop-down-icon" src="../Assets/Images/chevron-down.svg" alt="LAM VAX">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="add-section">
+                        <div class="row d-flex">
+                            <div class="col-md-10 mx-auto">
+                                <img class="img-fluid mx-auto d-block edit-image"
+                                    src="../Assets/Images/avatar-client.png" alt="Lam Vax"><br>
+                                <label for="file-upload" class="d-flex mx-auto" id="custom-file-upload">
+                                    Update Photo
+                                </label>
+                                <input type="file" class="update-photo  mb-4" id="file-upload"> <br>
+
+                                <div class="row details mt-5">
+                                    <div class="col-md-6">
+                                        <div class="family-section mb-5">
+                                            <p class="bold-text"> Family name</p>
+                                            <p class="info-text">Edor</p>
+                                        </div>
+
+                                        <div class="vaccination-section mb-5">
+                                            <p class="bold-text"> Vaccination Id</p>
+                                            <p class="info-text"> NG-AK78992969YY</p>
+                                        </div>
+
+                                        <div class="gender-section mb-5">
+                                            <p class="bold-text">Sex</p>
+                                            <p class="info-text">Male</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="family-section mb-5">
+                                            <p class="bold-text"> Given name</p>
+                                            <p class="info-text">Matthew</p>
+                                        </div>
+
+                                        <div class="vaccination-section mb-5">
+                                            <p class="bold-text"> State</p>
+                                            <p class="info-text">Akwa Ibom</p>
+                                        </div>
+
+                                        <div class="gender-section mb-5">
+                                            <p class="bold-text">Date of Birth</p>
+                                            <p class="info-text">12 Aug 1995</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row add-details-section">
+                                    <form action="">
+                                        <div class="form-group mb-5">
+                                            <label for="phone">Phone</label>
+                                            <input type="text" id="phone" name="phone" class="form-record"
+                                                placeholder="08082277788" />
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="email">Email</label>
+                                            <input type="text" id="email" name="email" class="form-record"
+                                                placeholder="matthew.edor@gmail.com" />
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="address">Address</label>
+                                            <textarea name="address" id="address" class="form-record" cols="30"
+                                                rows="50" placeholder="FCT, Nigeria"></textarea>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="state">STATE OF RESIDENCE</label>
+                                                    <select name="state" class="form-record" id="state">
+                                                        <option value="Abia">Abia</option>
+                                                        <option value="Abia">Abia</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="lga">LGA OF RESIDENCE</label>
+                                                    <select name="lga" class="form-record" id="lga">
+                                                        <option value="Aba South">Aba South</option>
+                                                        <option value="Aba South">Aba South</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="ward">WARD OF RESIDENCE</label>
+                                            <textarea name="ward" id="ward" class="form-record" cols="30" rows="50"
+                                                placeholder="FCT, Nigeria"></textarea>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="id">ID TYPE</label>
+                                                    <select name="id" class="form-record" id="id">
+                                                        <option value="id">National ID (NIN)</option>
+                                                        <option value="id">National ID (NIN)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="id">ID NUMBER</label>
+                                                    <input type="id" id="id" name="id" class="form-record"
+                                                        placeholder="1234567890" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="occupation-category">OCCUPATION CATEGORY</label>
+                                                    <select name="occupation-category" class="form-record" id="occupation-category">
+                                                        <option value="Health Sector">Health Sector</option>
+                                                        <option value="Health Sector">Health Sector</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-5">
+                                                    <label for="occupation">OCCUPATION</label>
+                                                    <input type="text" name="occupation" class="form-record" id="occupation" placeholder="Health Informatics">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="medical-condition">MEDICAL CONDITIONS</label>
+                                            <textarea name="medical-condition" id="medical-condition" class="form-record" cols="30"
+                                                rows="50" placeholder="Heart Disease, Kidney Disease"></textarea>
+                                        </div>
+                                        <div class="row mb-5">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="checkbox" class="show-entries" />
+                                                    <div class="show-entries-text">
+                                                        <h2>Any History of Allergy?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="checkbox" class="show-entries" />
+                                                    <div class="show-entries-text">
+                                                        <h2>Accepts COVID-19 Vaccination?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mb-5">
+                                            <label for="vaccination">REASONS FOR DECLINING VACCINATION</label>
+                                            <textarea name="vaccination" id="vaccination" class="form-record" cols="30"
+                                                rows="50" placeholder="Heart Disease, Kidney Disease"></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button class="btn login-btn">Update Details</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
