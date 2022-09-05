@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lam - Vax Login</title>
     <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -31,7 +32,10 @@
                                 <input type="password" name="password" class="form-input" placeholder="Password"
                                     id="password-input">
                                     <span class="input-text">Password</span>
-                                   
+                                    <div class="toggle-icons" onclick="togglePassword()">
+                                        <i id="hide1" class="fa fa-eye"></i>
+                                        <i id="hide2" class="fa-solid fa-eye-slash"></i>
+                                    </div>
                             </div>
                             <div class="form-group mt-3 mb-5">
                                 <button class="btn login-btn">Log In</button>
@@ -52,6 +56,23 @@
             </div>
         </div>
     </div>
+    <script>
+        function togglePassword(){
+            let input = document.getElementById('password-input');
+            let hide1 = document.getElementById('hide1');
+            let hide2 = document.getElementById('hide2');
+
+            if(input.type === 'password'){
+                input.type = 'text';
+                hide1.style.display = 'block';
+                hide2.style.display = 'none';
+            }else{
+                input.type = 'password';
+                hide1.style.display = 'none';
+                hide2.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 
 </html>
