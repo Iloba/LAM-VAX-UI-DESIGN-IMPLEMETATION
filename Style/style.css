@@ -430,7 +430,7 @@ body {
 /* Media Queries */
 @media screen and (max-width: 600px) {
     .add-section {
-        padding: 1rem;
+        padding: 2rem 3rem;
     }
 
     #nav-mobile {
@@ -440,9 +440,11 @@ body {
         margin-top: 2rem;
     }
 
-    #nav-mobile #user-section-details {
-        display: none;
-    }
+    
 
+    #custom-file-upload{
+        display: block;
+       width: 100%;
+    }
 
 }
