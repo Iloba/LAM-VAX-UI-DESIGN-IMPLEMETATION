@@ -3553,9 +3553,12 @@ textarea.form-control-lg {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  left: -10rem;
+  top: 4.7rem;
+  min-width: 1rem;
   padding: 0.5rem 0;
   margin: 0;
+  /* margin-right: 200px; */
   font-size: 0.9rem;
   color: #212529;
   text-align: left;

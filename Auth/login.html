@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lam - Vax Login</title>
     <link rel="stylesheet" href="../Style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -28,14 +30,14 @@
                                 <input type="text" name="username" class="form-input" placeholder="Username">
                                 <span class="input-text">Username</span>
                             </div>
-                            <div class="form-group mb-5">
+                            <div class="form-group mb-5" id="password-box">
                                 <input type="password" name="password" class="form-input" placeholder="Password"
                                     id="password-input">
-                                    <span class="input-text">Password</span>
-                                    <div class="toggle-icons" onclick="togglePassword()">
-                                        <i id="hide1" class="fa fa-eye"></i>
-                                        <i id="hide2" class="fa-solid fa-eye-slash"></i>
-                                    </div>
+                                <span class="input-text">Password</span>
+                                <span class="toggle-icons" onclick="togglePassword()">
+                                    <i id="hide1" class="fa fa-eye"></i>
+                                    <i id="hide2" class="fa-solid fa-eye-slash"></i>
+                                </span>
                             </div>
                             <div class="form-group mt-3 mb-5">
                                 <button class="btn login-btn">Log In</button>
@@ -45,7 +47,8 @@
                                         reset link</a></p>
                             </div>
                             <div class="sponsors-section mb-5">
-                                <img class="img-fluid d-block mx-auto sponsors-image" src="../Assets/Images/Group 16348@2x.png" alt="Lam-Vax">
+                                <img class="img-fluid d-block mx-auto sponsors-image"
+                                    src="../Assets/Images/Group 16348@2x.png" alt="Lam-Vax">
                             </div>
                             <div class="copyright-section">
                                 <p class="text-center">© 2022 LAM-VAX. This is a property of FHI 360 Nigeria.</p>
@@ -57,16 +60,16 @@
         </div>
     </div>
     <script>
-        function togglePassword(){
+        function togglePassword() {
             let input = document.getElementById('password-input');
             let hide1 = document.getElementById('hide1');
             let hide2 = document.getElementById('hide2');
 
-            if(input.type === 'password'){
+            if (input.type === 'password') {
                 input.type = 'text';
                 hide1.style.display = 'block';
                 hide2.style.display = 'none';
-            }else{
+            } else {
                 input.type = 'password';
                 hide1.style.display = 'none';
                 hide2.style.display = 'block';

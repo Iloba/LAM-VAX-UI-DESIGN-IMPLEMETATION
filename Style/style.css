@@ -78,15 +78,16 @@ body {
 .form-input:focus {
     border: 1px solid var(--maroon);
 }
-
+#password-box{
+    position: relative;
+}
 .toggle-icons {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 48rem;
-    top: 14px;
     cursor: pointer;
     font-size: 20px;
+    top: 16px;
+    left: 90%;
+    padding: 10px 2;
 }
 
 #hide1 {
@@ -160,14 +161,19 @@ body {
     border-radius: 50%;
     margin: 1rem 2rem;
     border: 1.5px solid var(--darkGreyBorder);
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .details-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
-
+#user-nav-section{
+   display: none;
+}
 .user-name {
     color: var(--textDark);
 }
@@ -406,6 +412,20 @@ body {
     color: var(--black);
     border-radius: 7px;
 }
+.dropbtn{
+    cursor: pointer;
+}
+.dropdown-menu{
+    font-size: 1.8rem;
+}
+
+
+
+ 
+  
+  
+  
+
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
